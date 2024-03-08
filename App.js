@@ -1,20 +1,19 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
+import Bai1 from './LAB1/Bai1'
+import Bai2 from "./LAB1/Bai2";
+import Bai3 from "./LAB1/Bai3";
+import Bai4 from "./LAB1/Bai4";
+
+
+
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  // return <Bai1 />;
+  // return <Bai2 />;
+  return <Bai3 />;
+    return <Bai4 />;
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
+
