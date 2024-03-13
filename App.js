@@ -1,19 +1,19 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, View } from "react-native";
 
-import Bai1 from './LAB1/Bai1'
-import Bai2 from "./LAB1/Bai2";
-import Bai3 from "./LAB1/Bai3";
-import Bai4 from "./LAB1/Bai4";
+import Demo1 from "./LAB2/Demo1";
+import Demo2 from "./LAB2/Demo2";
+import Demo3 from "./LAB2/Demo3";
+import Demo4 from "./LAB2/Demo4";
 
-
+import Main from './Lab/Main'
 
 export default function App() {
-  // return <Bai1 />;
-  // return <Bai2 />;
-  return <Bai3 />;
-    return <Bai4 />;
+  // return <Demo1 />;
+  // return <Demo2 />;
+  //  return <Demo3 />;
+  // return <Demo4/>;
+  return <Main />;
+
 }
-
-
 
